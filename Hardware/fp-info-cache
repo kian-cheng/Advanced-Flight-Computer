@@ -1,4 +1,4 @@
-27504875170358856
+27510174734439338
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -109200,7 +109200,21 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL
 4
 4
 lcsc
+F0603
+
+
+0
+2
+2
+lcsc
 FC-135R_L3.2-W1.5
+
+
+0
+2
+2
+lcsc
+IND-SMD_L8.0-W8.0
 
 
 0
@@ -109262,6 +109276,13 @@ SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 0
 6
 6
+lcsc
+SOT-23_L2.9-W1.3-P1.90-LS2.4-BR
+
+
+0
+3
+3
 lcsc
 SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR
 
