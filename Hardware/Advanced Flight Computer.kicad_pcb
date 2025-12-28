@@ -865,7 +865,7 @@
 			(uuid "4574a431-900f-4ab3-932b-1a2f4957fa37")
 		)
 		(embedded_fonts no)
-		(model "/Hardware/lib/lcsc.3dshapes/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.wrl"
+		(model "${KIPRJMOD}/lib/lcsc.3dshapes/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -21722,7 +21722,7 @@
 			(uuid "9c278487-d775-42b7-a561-0d07b1041cfc")
 		)
 		(embedded_fonts no)
-		(model "/Hardware/lib/lcsc.3dshapes/IPEX-SMD_BWIPX-1-001E.wrl"
+		(model "${KIPRJMOD}/lib/lcsc.3dshapes/IPEX-SMD_BWIPX-1-001E.step"
 			(offset
 				(xyz 0.76 -0 -0)
 			)
@@ -34408,15 +34408,15 @@
 			(uuid "58082ccb-9d6c-427e-adda-81cba1db8d94")
 		)
 		(embedded_fonts no)
-		(model "/Hardware/lib/lcsc.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/lib/lcsc.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 			(offset
-				(xyz 0.84 -0.97 -0)
+				(xyz 0 0 -0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
