@@ -1,0 +1,6 @@
+Item,Description,Cost (USD),Quantity,Link
+PCB + PCBA,"4 layer PCB from JLCPCB including shipping, although the ICM-45686 is out of stock so a 26 USD + shipping budget should be considered for getting it in the future. ",263.31,1,
+RF Antenna,For RA-02 433Mhz,3.99,1,https://www.waveshare.com/sma-433-antenna.htm
+GPS Antenna,For GPS,1.99,1,https://www.waveshare.com/gnss-ceramic-antenna.htm
+IPX to SMA,IPEX 1 specifically for RA-02 to Antenna,0.69,1,https://www.waveshare.com/sma-to-ipex-cable.htm?sku=21119
+Waveshare shipping,"Shipping for the three products above, cheapest available",6,1,
