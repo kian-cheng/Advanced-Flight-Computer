@@ -11656,6 +11656,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 152.4) (xy 288.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b18a9f6-1f03-40d1-8e72-ad8068ab8d81")
+	)
+	(wire
+		(pts
 			(xy 365.76 232.41) (xy 368.3 232.41)
 		)
 		(stroke
@@ -12266,6 +12276,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 152.4) (xy 307.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f71030-3cb7-46df-baa7-f3c2197f185d")
+	)
+	(wire
+		(pts
 			(xy 243.84 106.68) (xy 255.27 106.68)
 		)
 		(stroke
@@ -12756,6 +12776,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 152.4) (xy 304.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f68070f-14a3-431c-9593-c2cfa0ec5279")
+	)
+	(wire
+		(pts
 			(xy 123.19 201.93) (xy 123.19 207.01)
 		)
 		(stroke
@@ -12873,6 +12903,16 @@
 			(type default)
 		)
 		(uuid "656d48c0-ab20-4926-a3d8-80596a730205")
+	)
+	(wire
+		(pts
+			(xy 309.88 152.4) (xy 325.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65989b4c-330e-4ebb-88aa-4641a68c9e6a")
 	)
 	(wire
 		(pts
@@ -13043,6 +13083,16 @@
 			(type default)
 		)
 		(uuid "6b791221-ace7-4e69-a65a-62b7f1902155")
+	)
+	(wire
+		(pts
+			(xy 325.12 152.4) (xy 325.12 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8c3185-af10-4340-be75-5489a1d4fdb4")
 	)
 	(wire
 		(pts
@@ -13783,6 +13833,16 @@
 			(type default)
 		)
 		(uuid "8879cc74-3180-46bc-9731-4658726b24f0")
+	)
+	(wire
+		(pts
+			(xy 304.8 157.48) (xy 300.99 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887d0ac3-840b-4e0e-9eae-0f557329a253")
 	)
 	(wire
 		(pts
@@ -15126,6 +15186,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 157.48) (xy 312.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a17072-df09-411b-bd82-1b60707941fc")
+	)
+	(wire
+		(pts
 			(xy 379.73 208.28) (xy 372.11 208.28)
 		)
 		(stroke
@@ -15496,16 +15566,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 157.48) (xy 325.12 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d156f8e6-b7a5-4a85-bd81-aa613427dcb2")
-	)
-	(wire
-		(pts
 			(xy 379.73 228.6) (xy 379.73 208.28)
 		)
 		(stroke
@@ -15673,16 +15733,6 @@
 			(type default)
 		)
 		(uuid "daa47b52-3128-4774-bc04-5b2e09592321")
-	)
-	(wire
-		(pts
-			(xy 288.29 157.48) (xy 288.29 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daaddf29-1a23-4679-b190-4c163cc01ea8")
 	)
 	(wire
 		(pts
@@ -16453,6 +16503,16 @@
 			(type default)
 		)
 		(uuid "fd517685-a806-45a9-af9d-fb931855b803")
+	)
+	(wire
+		(pts
+			(xy 302.26 152.4) (xy 288.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9f958a-85c3-4ec2-9375-e502e01c8488")
 	)
 	(wire
 		(pts
@@ -24449,6 +24509,80 @@
 			(project ""
 				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 304.8 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b564de9-c445-4beb-bd4c-4330f846796c")
+		(property "Reference" "J8"
+			(at 306.07 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 306.07 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+			(at 304.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 304.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ab91ee7-3db5-4649-a39e-777a7ba58323")
+		)
+		(pin "1"
+			(uuid "e5503a39-570e-46c2-9996-8203b60def84")
+		)
+		(pin "3"
+			(uuid "7ff11ba9-41c4-4d36-b66b-a201e4839af9")
+		)
+		(pin "4"
+			(uuid "e4c76367-151d-487b-a2b0-a43ed5dac366")
+		)
+		(instances
+			(project ""
+				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
+					(reference "J8")
 					(unit 1)
 				)
 			)
