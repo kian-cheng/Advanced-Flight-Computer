@@ -20,6 +20,7 @@ A flight computer designed to be feature-rich and intuitive to use. Include feat
 
 ## PCB layout
 
-<img width="802" height="1256" alt="image" src="https://github.com/user-attachments/assets/da8e764a-cfa5-41a1-b8ab-eee092b83fc0" />
+<img width="855" height="1328" alt="image" src="https://github.com/user-attachments/assets/9fba1c28-7023-49ea-8915-2b8cd0be193d" />
 
 <img width="529" height="815" alt="image" src="https://github.com/user-attachments/assets/9a7060df-e84e-40ba-9ebd-c522b262b647" />
+(not updated yet)
