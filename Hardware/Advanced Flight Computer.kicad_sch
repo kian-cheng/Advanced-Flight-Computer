@@ -11376,6 +11376,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 158.75) (xy 154.94 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6a3717-9465-47f2-b26d-f70262ab8e95")
+	)
+	(wire
+		(pts
 			(xy 114.3 140.97) (xy 124.46 140.97)
 		)
 		(stroke
@@ -13316,6 +13326,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 138.43) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7589fb1e-a320-42e7-952b-2f65b4aa78e1")
+	)
+	(wire
+		(pts
 			(xy 76.2 138.43) (xy 82.55 138.43)
 		)
 		(stroke
@@ -14996,7 +15016,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 135.89) (xy 41.91 135.89)
+			(xy 35.56 135.89) (xy 41.91 135.89)
 		)
 		(stroke
 			(width 0)
@@ -16093,6 +16113,16 @@
 			(type default)
 		)
 		(uuid "eb01ee6c-c3f7-4e6a-8a0b-1a6ef8a51a21")
+	)
+	(wire
+		(pts
+			(xy 154.94 149.86) (xy 154.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb35ac53-2b00-4d8d-b3ff-c7fce349af2a")
 	)
 	(wire
 		(pts
@@ -27245,7 +27275,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 39.37 135.89 90)
+		(at 35.56 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27254,7 +27284,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f875694-03b7-4995-884a-10a3e61e45e3")
 		(property "Reference" "#PWR046"
-			(at 43.18 135.89 0)
+			(at 39.37 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27263,7 +27293,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 35.56 135.8899 90)
+			(at 31.75 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27272,7 +27302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27281,7 +27311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27290,7 +27320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 39.37 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27648,6 +27678,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9290b16c-02e7-4d5b-a1d0-414155d3bb25")
+		(property "Reference" "R44"
+			(at 157.48 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "430"
+			(at 157.48 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.162 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2d7348d-7f57-47cd-8147-95b84f3f220c")
+		)
+		(pin "1"
+			(uuid "857e4afc-c870-43a2-8310-5d8050a50c48")
+		)
+		(instances
+			(project "Advanced Flight Computer"
+				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 256.54 273.05 270)
 		(unit 1)
@@ -27709,6 +27809,72 @@
 			(project ""
 				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 154.94 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fc31ba-a57a-45e6-ba3a-293302228601")
+		(property "Reference" "#PWR092"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 154.94 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52406e28-e9b8-4cec-8d9b-77e324896d0d")
+		)
+		(instances
+			(project ""
+				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -30728,6 +30894,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 154.94 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed5a8d1-0ac2-4488-9c27-5df529ab7063")
+		(property "Reference" "D11"
+			(at 157.48 143.1924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.48 145.7324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130723"
+			(at 154.94 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a5c3d93-e7ea-4f60-91d6-78b60e2eb206")
+		)
+		(pin "2"
+			(uuid "83122aa7-d7e0-432e-be8f-aaabaa5b51f4")
+		)
+		(instances
+			(project "Advanced Flight Computer"
+				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 156.21 30.48 0)
 		(unit 1)
@@ -31666,7 +31920,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "530"
+		(property "Value" "550"
 			(at 384.81 193.0399 0)
 			(effects
 				(font
@@ -33825,6 +34079,72 @@
 			(project ""
 				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1bbbbc-ffea-4841-a38e-208a37d760da")
+		(property "Reference" "#PWR091"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25fd438b-cdc7-486e-a7e0-4e70d1784da3")
+		)
+		(instances
+			(project "Advanced Flight Computer"
+				(path "/622a0068-bbe7-41cd-97ce-d947c3f446e7"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
