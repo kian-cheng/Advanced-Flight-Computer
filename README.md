@@ -27,3 +27,5 @@ Before this, I've only made a simpler flight computer on a perfboard that does d
 <img width="767" height="1230" alt="image" src="https://github.com/user-attachments/assets/3127d87c-fc87-4fe6-9621-32988f5866db" />
 
 <img width="497" height="733" alt="image" src="https://github.com/user-attachments/assets/d7084ab8-df55-46e3-810a-98518761597b" />
+
+Designed using KiCad. PCB Image rendered in Blender.
